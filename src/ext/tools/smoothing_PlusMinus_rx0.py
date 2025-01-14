@@ -1,7 +1,7 @@
 from .log_progress import log_progress
 from .uvp_masks import uvp_masks
 import numpy as np
-import bathy_smoother
+# import bathy_smoother
 
 def smoothing_PlusMinus_rx0(MSK, Hobs, rx0max, AreaMatrix,rounds):
     """

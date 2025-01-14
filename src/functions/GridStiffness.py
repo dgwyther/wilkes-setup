@@ -1,14 +1,17 @@
 import numpy as np
-try: 
-    from pyroms import hgrid
-except:
-    print('')
+# try: 
+#     from pyroms import hgrid
+# except:
+#     print('')
 
-from pyroms.vgrid import s_coordinate
-from pyroms.vgrid import s_coordinate_2
-from pyroms.vgrid import s_coordinate_4
-from pyroms.vgrid import z_r
-from pyroms.vgrid import z_w
+# from pyroms.vgrid import s_coordinate
+# from pyroms.vgrid import s_coordinate_2
+# from pyroms.vgrid import s_coordinate_4
+# from pyroms.vgrid import z_r
+# from pyroms.vgrid import z_w
+
+
+from ext.pyroms.vgrid import s_coordinate_4
 
 def calc_z(Vtransform,Vstretching,theta_s,theta_b,Tcline,hc,N,hh,zz):
     """
